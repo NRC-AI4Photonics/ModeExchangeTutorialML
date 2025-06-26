@@ -18,3 +18,9 @@ env/
 models/
 results/
 
+# Keep important data files
+!data_v19.csv
+!data_v19_aug.csv
+!frontier_v19.csv
+!filtered_points_3.csv
+
