@@ -1,0 +1,137 @@
+Forward model with data augmentation
+  Parameter       MAE       MSE
+0      TE 0  0.080211  0.014359
+1      TE 1  0.125009  0.023836
+2      TE 2  0.093951  0.017082
+
+Parameter       MAE       MSE
+0      TE 0  0.079629  0.013560
+1      TE 1  0.118060  0.022964
+2      TE 2  0.092154  0.016501
+
+
+
+Parameter 0 -> MSE: 1.548164e-14, MAE: 8.748225e-08
+Parameter 1 -> MSE: 7.627122e-15, MAE: 6.643040e-08
+Parameter 2 -> MSE: 4.730141e-14, MAE: 1.573036e-07
+Parameter 3 -> MSE: 1.234229e-13, MAE: 2.548129e-07
+Parameter 4 -> MSE: 5.827529e-14, MAE: 2.188671e-07
+Parameter 5 -> MSE: 3.222914e-14, MAE: 1.305611e-07
+
+
+Tandem Inverse model
+   Feature           MSE           MAE
+0  param_0  4.474123e-14  1.639054e-07
+1  param_1  2.129972e-13  4.192538e-07
+2  param_2  2.288541e-13  4.447103e-07
+3  param_3  1.374089e-13  2.797201e-07
+4  param_4  7.872968e-14  2.320317e-07
+5  param_5  3.792818e-14  1.798387e-07
+
+
+Gradient Inverse Model
+
+Param 0: MSE = 5.45e-14, MAE = 1.96e-07
+Param 1: MSE = 4.55e-14, MAE = 1.84e-07
+Param 2: MSE = 1.00e-13, MAE = 2.74e-07
+Param 3: MSE = 1.68e-13, MAE = 3.51e-07
+Param 4: MSE = 7.78e-14, MAE = 2.20e-07
+Param 5: MSE = 2.14e-14, MAE = 1.21e-07
+
+Parameter 0 -> MSE: 7.029370e-14, MAE: 2.135219e-07
+Parameter 1 -> MSE: 6.411276e-14, MAE: 2.010529e-07
+Parameter 2 -> MSE: 1.029689e-13, MAE: 2.914068e-07
+Parameter 3 -> MSE: 4.079693e-13, MAE: 4.048139e-07
+Parameter 4 -> MSE: 4.906159e-14, MAE: 1.833696e-07
+Parameter 5 -> MSE: 2.341760e-14, MAE: 1.174222e-07
+
+
+
+Inverse Design Metrics (Comparing recovered parameters vs. true parameters):
+Parameter 0 -> MSE: 3.498298e-14, MAE: 1.435379e-07
+Parameter 1 -> MSE: 5.542279e-14, MAE: 2.196509e-07
+Parameter 2 -> MSE: 1.915742e-13, MAE: 4.094145e-07
+Parameter 3 -> MSE: 1.145415e-13, MAE: 2.784258e-07
+Parameter 4 -> MSE: 4.850493e-14, MAE: 1.831464e-07
+Parameter 5 -> MSE: 2.417484e-14, MAE: 1.075942e-07
+
+Parameter 0 -> MSE: 3.730138e-14, MAE: 1.594396e-07
+Parameter 1 -> MSE: 2.293389e-13, MAE: 4.669961e-07
+Parameter 2 -> MSE: 3.363584e-13, MAE: 5.456754e-07
+Parameter 3 -> MSE: 1.345313e-13, MAE: 2.726166e-07
+Parameter 4 -> MSE: 8.674234e-14, MAE: 2.571469e-07
+Parameter 5 -> MSE: 3.333875e-14, MAE: 1.488791e-07
+
+surrogate
+Parameter 0 -> MSE: 7.029370e-14, MAE: 2.135219e-07
+Parameter 1 -> MSE: 6.411276e-14, MAE: 2.010529e-07
+Parameter 2 -> MSE: 1.029689e-13, MAE: 2.914068e-07
+Parameter 3 -> MSE: 4.079693e-13, MAE: 4.048139e-07
+Parameter 4 -> MSE: 4.906159e-14, MAE: 1.833696e-07
+Parameter 5 -> MSE: 2.341760e-14, MAE: 1.174222e-07
+
+
+
+cVAE
+Parameter 0 -> MSE: 3.773834e-14, MAE: 1.724441e-07
+Parameter 1 -> MSE: 2.554671e-13, MAE: 4.963593e-07
+Parameter 2 -> MSE: 3.959251e-13, MAE: 5.964216e-07
+Parameter 3 -> MSE: 1.313018e-13, MAE: 2.753494e-07
+Parameter 4 -> MSE: 8.762560e-14, MAE: 2.476188e-07
+Parameter 5 -> MSE: 4.253033e-14, MAE: 1.740074e-07
+
+Forward Model
+  Parameter       MAE       MSE
+0      TE 0  0.100036  0.021939
+1      TE 1  0.135746  0.028319
+2      TE 2  0.113446  0.026670
+
+
+Forward Model With Data Aug
+  Parameter       MAE       MSE
+0      TE 0  0.086505  0.017525
+1      TE 1  0.126552  0.023824
+2      TE 2  0.124625  0.029090
+
+Forward Model with DA and Ensemble
+
+avg mae
+
+StandardScaler
+  Parameter       MAE       MSE
+0      TE 0  0.085560  0.016057
+1      TE 1  0.123745  0.024012
+2      TE 2  0.102359  0.021669
+
+
+MinMaxScaler
+Parameter       MAE       MSE
+0      TE 0  0.092682  0.018767
+1      TE 1  0.122511  0.022403
+2      TE 2  0.116441  0.027389
+
+
+
+
+
+Inverse Model
+
+Gradient Inverse Model
+
+
+
+MinMaxScaler
+Forward Model
+
+Test MAE & MSE per parameter (original units):
+  Parameter       MAE       MSE
+0      TE 0  0.088369  0.012030
+1      TE 1  0.109872  0.018722
+2      TE 2  0.099839  0.020729
+
+Test Loss (MSE, scaled): 0.3680, Test MAE (scaled): 0.4459
+
+Sum of MAE (original units): 0.2981
+
+Forward Model With Augmentation
+

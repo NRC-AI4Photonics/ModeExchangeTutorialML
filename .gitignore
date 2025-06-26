@@ -1,0 +1,20 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+env/
+.venv/
+
+# Data artifacts
+*.pt
+*.pkl
+*.csv
+
+# Mac system files
+.DS_Store
+
+# Output folders
+models/
+results/
+
