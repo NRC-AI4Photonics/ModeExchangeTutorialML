@@ -37,7 +37,7 @@ Create and activate a Python virtual environment (recommended):
 ```bash
 python -m venv env
 source env/bin/activate   # Linux/Mac
-.\env\Scriptsctivate    # Windows
+.\env\Scripts\activate    # Windows
 ```
 
 Install dependencies:
