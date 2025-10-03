@@ -17,7 +17,8 @@ This tutorial is structured into clear steps corresponding to the sections of th
   - Simple inverse neural network (without tandem)
   - Tandem inverse neural network (with pre-trained forward network)
 
-The provided Python script allows you to reproduce these examples directly, using simple flags and parameters. 
+The provided Python script allows you to reproduce these examples directly, using simple flags and parameters. Additionally, the folder `./Simulations_setup` contains example code and needed scripts to run Ansys Lumerical simulations for data generation.
+
 ---
 
 ## Getting Started
